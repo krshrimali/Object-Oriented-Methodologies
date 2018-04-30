@@ -29,7 +29,7 @@ interface A extends C, B {
 }
 
 // Main class implementing final interface, A
-class Hybrid_Interface implements A{
+class Hybrid_Inheritance implements A{
     public static void main(String args[]) {
         Hybrid_Interface H = new Hybrid_Interface();
         System.out.println(H.A + H.B + H.C + H.D + H.E + H.F + H.G); 
