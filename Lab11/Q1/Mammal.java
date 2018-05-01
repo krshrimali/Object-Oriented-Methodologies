@@ -11,4 +11,7 @@ public class Mammal implements Animal {
     public void travel() {
         System.out.println("Travelling");
     }
+    public static void main(String args[]) {
+        System.out.println("Mammal coming your way :P ");
+    }
 }
